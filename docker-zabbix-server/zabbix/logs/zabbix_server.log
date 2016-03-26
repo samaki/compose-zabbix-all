@@ -1,0 +1,64 @@
+     1:20160320:131410.764 Starting Zabbix Server. Zabbix 3.0.0 (revision 58460).
+     1:20160320:131410.781 ****** Enabled features ******
+     1:20160320:131410.781 SNMP monitoring:           YES
+     1:20160320:131410.781 IPMI monitoring:           YES
+     1:20160320:131410.781 Web monitoring:            YES
+     1:20160320:131410.781 VMware monitoring:         YES
+     1:20160320:131410.781 SMTP authentication:       YES
+     1:20160320:131410.781 Jabber notifications:      YES
+     1:20160320:131410.781 Ez Texting notifications:  YES
+     1:20160320:131410.781 ODBC:                      YES
+     1:20160320:131410.781 SSH2 support:              YES
+     1:20160320:131410.781 IPv6 support:              YES
+     1:20160320:131410.781 TLS support:               YES
+     1:20160320:131410.781 ******************************
+     1:20160320:131410.781 using configuration file: /etc/zabbix/zabbix_server.conf
+     1:20160320:131411.686 current database version (mandatory/optional): 03000000/03000000
+     1:20160320:131411.686 required mandatory version: 03000000
+     1:20160320:131411.981 server #0 started [main process]
+     9:20160320:131411.986 server #3 started [poller #1]
+     8:20160320:131411.986 server #2 started [db watchdog #1]
+    11:20160320:131411.987 server #5 started [trapper #1]
+     7:20160320:131411.990 server #1 started [configuration syncer #1]
+    13:20160320:131411.990 server #7 started [alerter #1]
+    12:20160320:131411.991 server #6 started [icmp pinger #1]
+    10:20160320:131411.992 server #4 started [unreachable poller #1]
+    14:20160320:131411.996 server #8 started [housekeeper #1]
+    16:20160320:131411.999 server #10 started [http poller #1]
+    15:20160320:131412.000 server #9 started [timer #1]
+    19:20160320:131412.002 server #13 started [escalator #1]
+    18:20160320:131412.003 server #12 started [history syncer #1]
+    20:20160320:131412.022 server #14 started [ipmi poller #1]
+    23:20160320:131412.032 server #17 started [self-monitoring #1]
+    21:20160320:131412.032 server #15 started [java poller #1]
+    22:20160320:131412.036 server #16 started [proxy poller #1]
+    24:20160320:131412.036 server #18 started [vmware collector #1]
+    17:20160320:131412.242 server #11 started [discoverer #1]
+    14:20160320:134412.664 executing housekeeper
+    14:20160320:134412.867 housekeeper [deleted 0 hist/trends, 0 items, 0 events, 0 sessions, 0 alarms, 0 audit items in 0.137799 sec, idle for 1 hour(s)]
+    14:20160320:144414.192 executing housekeeper
+    14:20160320:144414.311 housekeeper [deleted 0 hist/trends, 0 items, 0 events, 0 sessions, 0 alarms, 0 audit items in 0.001960 sec, idle for 1 hour(s)]
+    14:20160320:154415.563 executing housekeeper
+    14:20160320:154415.683 housekeeper [deleted 0 hist/trends, 0 items, 0 events, 0 sessions, 0 alarms, 0 audit items in 0.000738 sec, idle for 1 hour(s)]
+    14:20160320:164416.965 executing housekeeper
+    14:20160320:164417.061 housekeeper [deleted 0 hist/trends, 0 items, 0 events, 0 sessions, 0 alarms, 0 audit items in 0.003051 sec, idle for 1 hour(s)]
+    14:20160320:174418.336 executing housekeeper
+    14:20160320:174418.434 housekeeper [deleted 0 hist/trends, 0 items, 0 events, 0 sessions, 0 alarms, 0 audit items in 0.001963 sec, idle for 1 hour(s)]
+    14:20160321:085005.824 executing housekeeper
+    14:20160321:085020.830 housekeeper [deleted 0 hist/trends, 0 items, 0 events, 0 sessions, 0 alarms, 0 audit items in 0.000828 sec, idle for 1 hour(s)]
+    14:20160321:095022.324 executing housekeeper
+    14:20160321:095027.330 housekeeper [deleted 0 hist/trends, 0 items, 0 events, 0 sessions, 0 alarms, 0 audit items in 0.002994 sec, idle for 1 hour(s)]
+    14:20160321:105028.727 executing housekeeper
+    14:20160321:105033.735 housekeeper [deleted 0 hist/trends, 0 items, 0 events, 0 sessions, 0 alarms, 0 audit items in 0.002821 sec, idle for 1 hour(s)]
+    14:20160321:115035.074 executing housekeeper
+    14:20160321:115040.078 housekeeper [deleted 0 hist/trends, 0 items, 0 events, 0 sessions, 0 alarms, 0 audit items in 0.001908 sec, idle for 1 hour(s)]
+    14:20160321:125041.493 executing housekeeper
+    14:20160321:125046.503 housekeeper [deleted 0 hist/trends, 0 items, 0 events, 0 sessions, 0 alarms, 0 audit items in 0.001075 sec, idle for 1 hour(s)]
+    14:20160321:135047.835 executing housekeeper
+    14:20160321:135052.840 housekeeper [deleted 0 hist/trends, 0 items, 0 events, 0 sessions, 0 alarms, 0 audit items in 0.002093 sec, idle for 1 hour(s)]
+    14:20160321:145054.175 executing housekeeper
+    14:20160321:145059.182 housekeeper [deleted 0 hist/trends, 0 items, 0 events, 0 sessions, 0 alarms, 0 audit items in 0.002741 sec, idle for 1 hour(s)]
+    14:20160321:155100.521 executing housekeeper
+    14:20160321:155105.524 housekeeper [deleted 0 hist/trends, 0 items, 0 events, 0 sessions, 0 alarms, 0 audit items in 0.000751 sec, idle for 1 hour(s)]
+    14:20160321:165107.019 executing housekeeper
+    14:20160321:165112.024 housekeeper [deleted 0 hist/trends, 0 items, 0 events, 0 sessions, 0 alarms, 0 audit items in 0.001944 sec, idle for 1 hour(s)]

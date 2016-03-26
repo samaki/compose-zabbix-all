@@ -1,0 +1,80 @@
+160320 11:41:52 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+160320 11:41:52  InnoDB: Initializing buffer pool, size = 8.0M
+160320 11:41:52  InnoDB: Completed initialization of buffer pool
+160320 11:41:52  InnoDB: Started; log sequence number 0 6567648
+160320 11:41:52 [Note] Event Scheduler: Loaded 0 events
+160320 11:41:52 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.1.73'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  Source distribution
+160320 11:42:04 [Note] /usr/libexec/mysqld: Normal shutdown
+
+160320 11:42:04 [Note] Event Scheduler: Purging the queue. 0 events
+160320 11:42:04  InnoDB: Starting shutdown...
+160320 11:42:07  InnoDB: Shutdown completed; log sequence number 0 6567658
+160320 11:42:07 [Note] /usr/libexec/mysqld: Shutdown complete
+
+160320 11:42:07 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+160320 11:42:08 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+160320 11:42:09  InnoDB: Initializing buffer pool, size = 8.0M
+160320 11:42:09  InnoDB: Completed initialization of buffer pool
+160320 11:42:09  InnoDB: Started; log sequence number 0 6567658
+160320 11:42:09 [Note] Event Scheduler: Loaded 0 events
+160320 11:42:09 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.1.73'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  Source distribution
+160320 12:13:43 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+160320 12:13:43  InnoDB: Initializing buffer pool, size = 8.0M
+160320 12:13:43  InnoDB: Completed initialization of buffer pool
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+160320 12:13:43  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+160320 12:13:44  InnoDB: Started; log sequence number 0 6567698
+160320 12:13:44 [Note] Event Scheduler: Loaded 0 events
+160320 12:13:44 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.1.73'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  Source distribution
+160320 12:13:55 [Note] /usr/libexec/mysqld: Normal shutdown
+
+160320 12:13:55 [Note] Event Scheduler: Purging the queue. 0 events
+160320 12:13:55  InnoDB: Starting shutdown...
+160320 12:13:59  InnoDB: Shutdown completed; log sequence number 0 6567708
+160320 12:13:59 [Note] /usr/libexec/mysqld: Shutdown complete
+
+160320 12:13:59 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+160320 12:14:00 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+160320 12:14:00  InnoDB: Initializing buffer pool, size = 8.0M
+160320 12:14:00  InnoDB: Completed initialization of buffer pool
+160320 12:14:01  InnoDB: Started; log sequence number 0 6567708
+160320 12:14:01 [Note] Event Scheduler: Loaded 0 events
+160320 12:14:01 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.1.73'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  Source distribution
+160320 12:44:01 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+160320 12:44:01  InnoDB: Initializing buffer pool, size = 8.0M
+160320 12:44:01  InnoDB: Completed initialization of buffer pool
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+160320 12:44:01  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+160320 12:44:01  InnoDB: Started; log sequence number 0 6567748
+160320 12:44:01 [Note] Event Scheduler: Loaded 0 events
+160320 12:44:01 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.1.73'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  Source distribution
+160320 12:44:12 [Note] /usr/libexec/mysqld: Normal shutdown
+
+160320 12:44:12 [Note] Event Scheduler: Purging the queue. 0 events
+160320 12:44:12  InnoDB: Starting shutdown...
+160320 12:44:17  InnoDB: Shutdown completed; log sequence number 0 6567758
+160320 12:44:17 [Note] /usr/libexec/mysqld: Shutdown complete
+
+160320 12:44:17 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+160320 12:44:17 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+160320 12:44:17  InnoDB: Initializing buffer pool, size = 8.0M
+160320 12:44:17  InnoDB: Completed initialization of buffer pool
+160320 12:44:18  InnoDB: Started; log sequence number 0 6567758
+160320 12:44:18 [Note] Event Scheduler: Loaded 0 events
+160320 12:44:18 [Note] /usr/libexec/mysqld: ready for connections.
+Version: '5.1.73'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  Source distribution

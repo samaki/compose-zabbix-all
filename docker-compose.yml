@@ -1,0 +1,41 @@
+version: '2.0'
+services:
+ zabbix-data:
+  container_name: zabbix-data
+  image : busybox
+  volumes:
+   - ./docker-zabbix-mysql/mysql/data/:/var/lib/mysql
+   - ./docker-zabbix-mysql/mysql/log/:/var/log
+   - ./docker-zabbix-mysql/mysql/conf/my.cnf:/etc/mysql/conf.d/my.cnf
+ zabbix-db:
+  container_name: zabbix-db
+  build:
+   context: docker-zabbix-mysql/
+  volumes_from:
+   - zabbix-data
+ zabbix-server:
+  container_name: zabbix-server
+  build: 
+   context: docker-zabbix-server/
+  ports:
+   - "10050:10050"
+  volumes:
+   - ./docker-zabbix-server/zabbix/zabbix_server.conf:/etc/zabbix_server:ro
+   - ./docker-zabbix-server/zabbix/logs:/var/log/zabbix
+  links:
+   - zabbix-db
+  user: zabbix
+ zabbix-web:
+  container_name: zabbix-web
+  build: 
+   context: docker-zabbix-web/
+  ports:
+   - "80:80"
+  links:
+   - zabbix-db
+   - zabbix-server
+  volumes:
+   - ./docker-zabbix-web/zabbix/php.d/:/etc/php.d
+   - ./docker-zabbix-web/zabbix/httpd/conf.d/:/etc/httpd/conf.d
+   - ./docker-zabbix-web/zabbix/httpd/conf/:/etc/httpd/conf
+   - ./docker-zabbix-web/zabbix/zabbix/web:/etc/zabbix/web/
