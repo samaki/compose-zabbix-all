@@ -15,5 +15,5 @@ eatch container
 
 ## **Usage**:
  
-`git clone https://github.com/samaki/compose-zabbix-all.git
-docker-compose up -d`
+`git clone https://github.com/samaki/compose-zabbix-all.git`
+`docker-compose up -d`
