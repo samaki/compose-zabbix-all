@@ -1,5 +1,5 @@
 
-# **Zabbix installation for zabbix version3.0** :
+# **Zabbix version 3.0 installation with docker compose** :
 
 ## **Description** :
 
