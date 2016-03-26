@@ -10,8 +10,8 @@ eatch container
 
 ## **Prerequisites** : 
 
--Docker engin version 1.10.3
--Docker compose version 1.6.2
+- Docker engin version 1.10.3
+- Docker compose version 1.6.2
 
 ## **Usage**:
  
