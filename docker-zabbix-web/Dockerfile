@@ -1,5 +1,5 @@
 FROM centos:centos7
-MAINTAINER Dennis Kanbier <dennis@kanbier.net>
+MAINTAINER Ibtissam Taibi
 
 # Update base images.
 RUN yum distribution-synchronization -y
